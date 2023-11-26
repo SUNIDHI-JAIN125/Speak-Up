@@ -44,7 +44,7 @@ const Learning = () => {
 
   useEffect(() => {
     dispatch(getWordsRequest());
-    translateWords(params || "hi")
+    translateWords(params || "en")
       .then((arr) => dispatch(getWordsSuccess(arr)))
       .catch((err) => dispatch(getWordsFail(err)));
 
