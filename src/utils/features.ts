@@ -33,7 +33,7 @@ export const translateWords = async (params: LangType): Promise<WordType[]> => {
     }));
 
     // const apikey = import.meta.env.VITE_MICROSOFT_KEY;
-    const apikey = '32280bd2b3msh2922b8bc26522d0p17d554jsn6c597d45ee7e';
+    const apikey = ' ';
 
     const response = await axios.post(
       "https://microsoft-translator-text.p.rapidapi.com/translate",
