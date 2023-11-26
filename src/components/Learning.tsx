@@ -72,7 +72,7 @@ const Learning = () => {
       >
         <ArrowBack />
       </Button>
-      <Typography m={"2rem 0"}>Learning Made Easy</Typography>
+      <Typography m={"2rem 0"}>Learn and Chat</Typography>
 
       <Stack direction={"row"} spacing={"1rem"}>
         <Typography variant={"h4"}>
